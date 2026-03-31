@@ -4,6 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --card-alt: oklch(0.96 0.005 264); /* lighter than --card */
+  --card-alt-foreground: oklch(0.2 0 0);
   --background: oklch(1 0 0);
   --foreground: oklch(0.2686 0 0);
   --card: oklch(1 0 0);
@@ -58,6 +60,8 @@
 }
 
 .dark {
+  --card-alt: oklch(20.813% 0.00478 17.273); /* darker than --card */
+  --card-alt-foreground: oklch(0.95 0 0);
   --background: oklch(0.2046 0 0);
   --foreground: oklch(0.9219 0 0);
   --card: oklch(0.2686 0 0);
